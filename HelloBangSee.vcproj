@@ -308,7 +308,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath=".\trans.cpp"
+				RelativePath=".\trans-he.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
