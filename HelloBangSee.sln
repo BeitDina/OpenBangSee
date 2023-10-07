@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloBangSee", "HelloBangSee.vcproj", "{602866C1-DDE3-4E6B-B9E3-0C101164EACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602866C1-DDE3-4E6B-B9E3-0C101164EACB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{602866C1-DDE3-4E6B-B9E3-0C101164EACB}.Debug|Win32.Build.0 = Debug|Win32
+		{602866C1-DDE3-4E6B-B9E3-0C101164EACB}.Release|Win32.ActiveCfg = Release|Win32
+		{602866C1-DDE3-4E6B-B9E3-0C101164EACB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

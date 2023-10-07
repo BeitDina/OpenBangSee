@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HelloBangSee - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/HelloBangSee.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\HelloBangSee.rc"" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/HelloBangSee.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\HelloBangSee.cpp"
+"C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\HelloBangSeeDlg.cpp"
+"C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\trans.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP48.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/HelloBangSee.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP49.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/HelloBangSee.pdb" /machine:I386 /out:"Release/HelloBangSee.exe" 
+".\Release\HelloBangSee.obj"
+".\Release\HelloBangSeeDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\trans.obj"
+".\Release\HelloBangSee.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP4A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HelloBangSee.cpp
+HelloBangSeeDlg.cpp
+C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\trans.h(41) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\trans.h(44) : warning C4018: '==' : signed/unsigned mismatch
+trans.cpp
+C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\trans.h(41) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Owner\Desktop\HelloBangSee\HelloBangSee\trans.h(44) : warning C4018: '==' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+HelloBangSee.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
